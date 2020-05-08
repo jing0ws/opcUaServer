@@ -1,0 +1,21 @@
+{
+  "name": "opcUaServer",
+  "version": "1.0.0",
+  "description": "manufatura 4.0 opc ua central client and http server",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsmodbus": "^3.1.6",
+    "modbus-stack": "^0.2.1",
+    "modbus-stream": "^0.44.0",
+    "net": "^1.0.2",
+    "node-opcua": "^2.5.9"
+  },
+  "scripts": {
+    "dev": "nodemon index.js",
+    "dev2": "nodemon x.js"
+  }
+}
